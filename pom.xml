@@ -1,11 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	<parent>
-		<groupId>com.systemsinmotion</groupId>
-		<artifactId>petrescue-parent</artifactId>
-		<version>0.8.4</version>
-	</parent>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
 
 	<modelVersion>4.0.0</modelVersion>
 
@@ -24,6 +23,12 @@
 			<artifactId>petfinder-api</artifactId>
 			<version>1.0.1</version>
 		</dependency>
+		
+		<dependency>
+	    <groupId>com.github.SystemsInMotion</groupId>
+	    <artifactId>PetRescue-Parent</artifactId>
+	    <version>7658dbd</version>
+	</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
